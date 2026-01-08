@@ -49,7 +49,7 @@ const editNote = (index) => {
   return (
     <>
     <div className={`min-h-0.5 items-center text-center justify-between px-6 py-4 w-screen text-white border-gray-700 border-b-2 rounded-b-lg mb-4`}>
-      <h1 className='text-2xl italic font-bold '>Notes</h1>
+      <h1 className='text-2xl italic font-bold '>Docu-Note</h1>
     </div>
     <div className='grid grid-cols-1 md:grid-cols-2 min-h-fit min-w-auto items-center gap-2 grid-wrap overflow-hidden'>
       <div className='text-white bg-gray-950 min-w-1/2  rounded-2xl border-2 min-h-screen flex flex-col p-4 gap-4 border-gray-700'>
