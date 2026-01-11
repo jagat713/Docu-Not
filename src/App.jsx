@@ -53,7 +53,7 @@ const editNote = (index) => {
     </div>
     <div className='grid grid-cols-1 md:grid-cols-2 h-screen min-w-auto items-center gap-2 grid-wrap overflow-hidden'>
       <div className='text-white bg-gray-950 min-w-1/2  rounded-2xl border-2 h-screen flex flex-col p-4 gap-4 border-gray-700'>
-        <form action="submit" className="flex flex-col gap-3">
+        <form action="submit" className="flex flex-col gap-3 h-screen">
           <input type="text" value={title} placeholder="Heading" onChange={Heading} className=" italic font-extrabold text-center border-none outline-none focus:outline-none text-2xl"/>
           <textarea placeholder="Hi..." value={content} onChange={Content} className=" border-none outline-none ring-0 focus:outline-none focus:ring-0 resize-none text-left text-white min-h-100 "></textarea>
           <button className='active:bg-white hover:bg-purple-800 active:text-black border-b-2 border-b-cyan-800 rounded-2xl font-bold italic' onClick={onSubmit}>Save</button>
